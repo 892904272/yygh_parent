@@ -1,8 +1,8 @@
-package com.athuigu.yygh.hosp.service.impl;
+package com.atguigu.yygh.hosp.service.impl;
 
 import com.atguigu.yygh.model.hosp.HospitalSet;
-import com.athuigu.yygh.hosp.mapper.HospitalSetMapper;
-import com.athuigu.yygh.hosp.service.HospitalSetService;
+import com.atguigu.yygh.hosp.mapper.HospitalSetMapper;
+import com.atguigu.yygh.hosp.service.HospitalSetService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

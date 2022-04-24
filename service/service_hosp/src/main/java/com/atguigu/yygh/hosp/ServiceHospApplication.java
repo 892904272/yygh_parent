@@ -1,14 +1,13 @@
-package com.athuigu.yygh.hosp;
+package com.atguigu.yygh.hosp;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
+import org.springframework.context.annotation.ComponentScan;
 
-@EnableSwagger2
+//@EnableSwagger2
 @SpringBootApplication
-//@ComponentScan(basePackages = "com.atguigu")
-@MapperScan(basePackages = "com.atguigu.yygh.common.config")
+@ComponentScan(basePackages = "com.atguigu")
+//@MapperScan(basePackages = "com.atguigu.yygh.common.config")
 public class ServiceHospApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServiceHospApplication.class,args);

@@ -1,10 +1,10 @@
-package com.athuigu.yygh.hosp.controller;
+package com.atguigu.yygh.hosp.controller;
 
-import com.aiguigu.yygh.common.utils.MD5;
+import com.atguigu.yygh.common.utils.MD5;
 import com.atguigu.yygh.common.result.Result;
 import com.atguigu.yygh.model.hosp.HospitalSet;
 import com.atguigu.yygh.vo.hosp.HospitalSetQueryVo;
-import com.athuigu.yygh.hosp.service.HospitalSetService;
+import com.atguigu.yygh.hosp.service.HospitalSetService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.commons.lang.StringUtils;

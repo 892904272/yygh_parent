@@ -1,4 +1,4 @@
-package com.athuigu.yygh.hosp.config;
+package com.atguigu.yygh.hosp.config;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
